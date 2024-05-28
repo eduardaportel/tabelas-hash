@@ -15,4 +15,22 @@ public class Lista {
             primeiro = novo;
         }
     }
+
+    // Override
+    @Override
+    public String toString(){
+        String s = "lista: ";
+        if (estaVazia()){
+            s += "está vazia";
+        }
+        else {
+            No aux = primeiro;
+            while(aux != null){
+                s += aux;
+                aux = s.getProximo();
+            }
+            s += "//";
+        }
+        return s;
+    }
 }

@@ -1,8 +1,10 @@
 public class TesteHash {
     public static void main(String[] args) {
         // sem tratamento de colisões
-        Hash listaPessoas = new Hash();
+        // Hash listaPessoas = new Hash();
 
+        // com tratamento de colisão
+        HashTratamentoColisao listaPessoas = new HashTratamentoColisao();
         // criando pessoas
         Pessoa p1 = new Pessoa("Ana", 2000);
         Pessoa p2 = new Pessoa("Bia", 2010);
