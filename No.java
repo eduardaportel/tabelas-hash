@@ -9,10 +9,10 @@ public class No {
     }
 
     // getters
-    public Pessoa info(){
+    public Pessoa getInfo(){
         return info;
     }
-    public No proximo(){
+    public No getProximo(){
         return proximo;
     }
 

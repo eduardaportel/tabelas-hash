@@ -27,7 +27,7 @@ public class Lista {
             No aux = primeiro;
             while(aux != null){
                 s += aux;
-                aux = s.getProximo();
+                aux = aux.getProximo();
             }
             s += "//";
         }
