@@ -9,19 +9,15 @@ public class Lista {
     // método insere
     public void insere(Pessoa info){
         No novo = new No(info);
-        if(!estaVazia()){
-            primeiro = novo;
-        }
-        else{
+        if(!estaVazia())
             novo.setProximo(primeiro);
-            primeiro = novo;
-        }
+        primeiro = novo;
     }
-
+    
     // Override
     @Override
     public String toString(){
-        String s = "lista: ";
+        String s = "Lista: ";
         if (estaVazia()){
             s += "vazia";
         }

@@ -27,6 +27,6 @@ public class Pessoa{
     // Override da classe Pessoa
     @Override
     public String toString(){
-        return "[nome = " + nome + ", anoNascimento = " + anoNascimento + "]";
+        return "[ nome = " + nome + ", anoNascimento = " + anoNascimento + "]";
     }
 }

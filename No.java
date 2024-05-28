@@ -26,6 +26,6 @@ public class No {
 
     @Override
     public String toString(){
-        return "|" + info + "|->";
+        return "|" + info + "| -> " ;
     }
 }

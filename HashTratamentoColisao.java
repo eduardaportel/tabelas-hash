@@ -1,5 +1,5 @@
 public class HashTratamentoColisao {
-    // string igual o alfabeto
+    // string igual ao alfabeto
     private final String mapa = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
     // tabela hash é um vetor de objetos da classe lista
@@ -18,6 +18,7 @@ public class HashTratamentoColisao {
     public void insere(Pessoa pessoa){
         char primeiraLetra = pessoa.getNome().charAt(0);
         int posicao = mapa.indexOf(primeiraLetra);
+        System.out.println("Inserindo " + pessoa + " na posição " + posicao + "\n");
         tabela[posicao].insere(pessoa);
     }
 
