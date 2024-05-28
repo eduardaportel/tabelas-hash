@@ -2,7 +2,7 @@ public class No {
     private Pessoa info;
     private No proximo;
 
-
+    // 
     public No(Pessoa info){
         setInfo(info);
         proximo = null;
@@ -24,4 +24,8 @@ public class No {
         this.proximo = proximo;
     }
 
+    @Override
+    public String toString(){
+        return "|" + info + "|->";
+    }
 }
