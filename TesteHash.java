@@ -3,13 +3,15 @@ public class TesteHash {
         // sem tratamento de colisões
         Hash listaPessoas = new Hash();
 
-        // criando pessoas p1 e p2 
+        // criando pessoas
         Pessoa p1 = new Pessoa("Ana", 2000);
         Pessoa p2 = new Pessoa("Bia", 2010);
+        Pessoa p3 = new Pessoa("Antonio", 2000);
 
         // inserindo-as na lista
         listaPessoas.insere(p1);
         listaPessoas.insere(p2);
+        listaPessoas.insere(p3);
 
         // print do teste
         System.out.println(listaPessoas);

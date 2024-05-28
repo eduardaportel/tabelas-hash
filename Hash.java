@@ -2,10 +2,11 @@ public class Hash {
     // definindo a constante imutável (final) mapa 
     private final String mapa = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-    // tabela hash
+    // vetor da classe Pessoa
     private Pessoa[] tabela;
+
+    // inicializando esse vetor tabela 
     public Hash(){
-        // 26 espaços de memória reservados
         tabela = new Pessoa[26];
     }
     

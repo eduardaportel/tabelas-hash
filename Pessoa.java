@@ -2,16 +2,15 @@ public class Pessoa{
     private String nome;
     private int anoNascimento;
 
-    // pega e retorna o nome
+    // getters
     public String getNome(){
         return nome;
     }
-    // pega e retorna o ano
     public int getAnoNascimento(){
         return anoNascimento;
     }
 
-    // set o atributo com a variável que veio pelo parâmetro
+    // setters
     public void setNome(String nome){
         this.nome = nome;
     }
@@ -25,7 +24,7 @@ public class Pessoa{
         this.anoNascimento = anoNascimento;
     }
 
-    // Override da classe Pessoa
+    // Override
     @Override
     public String toString(){
         return "[nome = " + nome + ", anoNascimento = " + anoNascimento + "]";
