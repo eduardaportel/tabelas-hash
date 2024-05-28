@@ -1,0 +1,1 @@
+associando um valor à uma chave específica através da tabela hash
