@@ -25,9 +25,8 @@ public class HashTratamentoColisao {
     @Override
     public String toString(){
         String s = "";
-        for(int i = 0; i < 26; i++){
-        tabela[i] = new Lista();    
-        }
+        for(int i = 0; i < 26; i++)
+            s += tabela[i] + "\n";
+        return s; 
     }
-
 }
