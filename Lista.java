@@ -10,8 +10,10 @@ public class Lista {
     public void insere(Pessoa info){
         No novo = new No(info);
         if(!estaVazia()){
+            primeiro = novo;
+        }
+        else{
             novo.setProximo(primeiro);
-            // aponta para o novo Nó inserido
             primeiro = novo;
         }
     }
@@ -21,16 +23,16 @@ public class Lista {
     public String toString(){
         String s = "lista: ";
         if (estaVazia()){
-            s += "está vazia";
+            s += "vazia";
         }
         else {
             No aux = primeiro;
-            while(aux != null){
+            while(aux != null) {
                 s += aux;
                 aux = aux.getProximo();
             }
             s += "//";
         }
-        return s;
+        return s + "\n";
     }
 }

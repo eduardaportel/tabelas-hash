@@ -2,8 +2,8 @@ public class No {
     private Pessoa info;
     private No proximo;
 
-    // 
-    public No(Pessoa info){
+    public No (Pessoa info){
+
         setInfo(info);
         proximo = null;
     }

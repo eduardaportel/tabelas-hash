@@ -1,8 +1,6 @@
 public class Hash {
     // definindo a constante imutável (final) mapa 
     private final String mapa = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
-    // vetor da classe Pessoa
     private Pessoa[] tabela;
 
     // inicializando esse vetor tabela 
@@ -23,9 +21,9 @@ public class Hash {
     @Override
     public String toString(){
         String s = "";
-        for(int i = 0; i < 26; i++)
+        for(int i = 0; i < 26; i++){
             s += tabela[i] + "\n";
+        }
         return s;
-
     }
 }

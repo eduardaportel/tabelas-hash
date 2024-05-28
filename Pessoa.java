@@ -24,7 +24,7 @@ public class Pessoa{
         this.anoNascimento = anoNascimento;
     }
 
-    // Override
+    // Override da classe Pessoa
     @Override
     public String toString(){
         return "[nome = " + nome + ", anoNascimento = " + anoNascimento + "]";

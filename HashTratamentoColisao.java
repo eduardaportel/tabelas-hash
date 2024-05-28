@@ -9,7 +9,7 @@ public class HashTratamentoColisao {
     public HashTratamentoColisao(){
         tabela = new Lista[26];
         // cada posição guarda uma lista dinâmica
-        for(int i = 0; i < 25; i++){
+        for(int i = 0; i < 26; i++){
             tabela[i] = new Lista();
         }
     }
